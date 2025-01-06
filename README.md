@@ -1,4 +1,4 @@
- Raspberry Pi 4 Facial Recognition
+Raspberry Pi 4 Facial Recognition
 This project implements a facial recognition system on a Raspberry Pi 4, utilizing a webcam for image capture and OpenCV for facial recognition. The system can train models, recognize faces, and send email notifications.
 
 Features
@@ -12,7 +12,7 @@ Materials Required
 - Raspberry Pi 4
 - Webcam
 - Python 3 (with necessary libraries installed)
-- Haar Cascade file for face detection (`haarcascade_frontalface_default.xml`)
+- Haar Cascade file for face detection (haarcascade_frontalface_default.xml)
 
 Directory Structure
 facial_recognition_main/
@@ -33,7 +33,7 @@ Setup Instructions
 
 1.Clone the Repository
    bash
-   git clone https://github.com/your-repo/facial_recognition_main.git
+   git clone 
    cd facial_recognition_main
    ```
 
@@ -44,8 +44,8 @@ Setup Instructions
    Ensure OpenCV, NumPy, and necessary email libraries are installed.
 
 3. Prepare the Dataset
-   - Place training images in the `dataset/` directory.
-   - Organize images by folders named after individuals (e.g., `dataset/Person1/`).
+   - Place training images in the dataset/ directory.
+   - Organize images by folders named after individuals (e.g., dataset/Person1/).
 
 4. Train the Model
    bash
@@ -58,7 +58,7 @@ Setup Instructions
   
 
 6. Enable Email Alerts(optional):
-   - Configure email settings in `facial_req_email.py`.
+   - Configure email settings in facial_req_email.py.
    - Run the email-enabled script:
      bash
      python facial_req_email.py
